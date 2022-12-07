@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+body {
+    width: 100vw;
+    min-height: 100vh;
+}
+main {
+    width: 100%;
+}
 
 /* header */
 .header {
@@ -62,3 +69,10 @@
 }
 
 /* end of header */
+
+/* video */
+.video {
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content;
+}
