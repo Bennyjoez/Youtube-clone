@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header {
+    padding: 10px;
+}
+.logo {
+    height: 20px;
+}
+.youtube-logo {
+    display: flex;
+    align-items: center;
+}
+.youtube-logo h2 {
+    padding-left: 10px;
+}
+.profile {
+    height: 40px;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.youtube-logo {
+    margin-left: 10px;
+    margin-right: auto;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: lightgray;
+    border-radius: 20px;
+}
+.search-bar .search-text {
+    height: 2rem;
+    width: calc(20rem + 2vw);
+    text-indent: 10px;
+    padding-block: 3px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.icons {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.mic {
+    margin-left: 5px;
+    margin-right: auto;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-items: center;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+.search-glass {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+/* end of header */
