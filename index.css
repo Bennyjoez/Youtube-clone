@@ -74,5 +74,21 @@ main {
 .video {
     margin: auto;
     margin-top: 10px;
-    width: fit-content;
+    width: 90%;
+    max-width: 800px;
+}
+.video iframe {
+    width: 100%;
+}
+
+/* at smaller screens */
+@media  (max-width: 800px) {
+    iframe {
+        height: 300px;
+    }
+}
+@media (max-width: 500px) {
+    iframe {
+        height: 250px;
+    }
 }
